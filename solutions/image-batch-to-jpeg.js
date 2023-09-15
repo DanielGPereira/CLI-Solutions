@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { mkdirp } = require('mkdirp');
 
-const dirInIndex = process.argv.indexOf('--dir_in');
+const dirInIndex = process.argv.indexOf('-dir_in');
 const dirOutIndex = process.argv.indexOf('--dir_out');
 
 const dirInValue = process.argv[dirInIndex + 1];
