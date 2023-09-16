@@ -16,3 +16,5 @@ Essa solução permite converter todas as images no formato PNG, GIF, WebP, AVIF
   Como iniciar o processo.
   node image-batch-to-jpeg.js -dir_in (Caminho do diretório das images.) --dir_out (Caminho onde a pasta com as imagens jpeg será criada. Esse atributo é opcional.)
 ```
+## cli-to-do
+Essa solução permite criar lista de tarefas para usuários independentes, os usuários e tarefas são armazenados no banco de dados postgresql.
